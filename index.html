@@ -2,29 +2,99 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <title>Canopus</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Moon+Dance&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!-- css -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- icon font awesome -->
+    <script src="https://kit.fontawesome.com/34031023fc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <section id="title">
 
-    <!-- Nav Bar -->
+        <!-- Nav Bar -->
+
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="" class="navbar-brand logo">Canopus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Poems</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Publish</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
 
+            <!-- Title -->
 
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <h1>A never ending voyage.</h1>
+                    <button type="button" class="btn btn-outline-primary btn-lg title-button">Follow us</button>
+                    <button type="button" class="btn btn-dark btn-lg title-button">Publish your work</button>
+                </div>
+                
 
-    <!-- Title -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="images/Canopus (1).png" />
+                        </div>
+                        <div class="content">
+                            <div class="details">
+                                <h2>Canopus<br /><span>a never ending voyage.</span></h2>
+                                <div class="data">
+                                    <h3>10<br /><span>Posts</span></h3>
+                                    <h3>573<br /><span>Followers</span></h3>
+                                    <h3>161<br /><span>Following</span></h3>
+                                </div>
+                                <div class="actionBtn">
+                                    <button>Follow </button>
+                                    <button>Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <div>
-            <h1>A never ending voyage.</h1>
-            <button type="button">Follow</button>
-        </div>
-
-        <div>
-            <img src="images/qr-canopusInsta.png" alt="">
         </div>
 
     </section>
@@ -46,33 +116,17 @@
             <h3>Founder's message.</h3>
             <p></p>
         </div>
-        
+
     </section>
 
     <section id="poem">
         <h2>Poems</h2>
         <h3>That day finally showed.</h2>
-        <p></p>
-        <img src="" alt="">
-        <em>farhanfaiyazkhan</em>
+            <p></p>
+            <img src="" alt="">
+            <em>farhanfaiyazkhan</em>
 
-        <!-- <h2>Two burning flames.</h2>
-        <p></p>
-        <img src="" alt="">
-
-        <h2>They say.</h2>
-        <p></p>
-        <img src="" alt=""> -->
-    </section>
-
-    <section id="couplet">
-        <h2>Couplets</h2>
-        <h3>Mera Ishq.</h2>
-        <p></p>
-        <img src="" alt="">
-        <em>farhanfaiyazkhan</em>
-
-        <!-- <h2>Two burning flames.</h2>
+            <!-- <h2>Two burning flames.</h2>
         <p></p>
         <img src="" alt="">
 
@@ -84,11 +138,11 @@
     <section id="article">
         <h2>Articles</h2>
         <h3>Happy New Year</h2>
-        <p></p>
-        <img src="" alt="">
-        <em>farhanfaiyazkhan</em>
+            <p></p>
+            <img src="" alt="">
+            <em>farhanfaiyazkhan</em>
 
-        <!-- <h2>Two burning flames.</h2>
+            <!-- <h2>Two burning flames.</h2>
         <p></p>
         <img src="" alt="">
 
@@ -96,7 +150,7 @@
         <p></p>
         <img src="" alt=""> -->
     </section>
-    
+
     <section contact-form>
         <h2>Publish your work.</h2>
         <form action="">
@@ -110,10 +164,31 @@
             <input type="text" name="insta-accn" id="insta-accn"><br>
 
             <label for="insta-link">Instagram Link</label>
-            <input type="text" name="insta-link" id="insta-link">
+            <input type="url" name="insta-link" id="insta-link"><br>
 
 
+
+            <label for="post">What do you want to post?</label>
+            <select name="post" id="post">
+                <option value="poem">Poem/Couplet</option>
+                <option value="Artice">Article</option>
+            </select><br>
+
+            <label for="work">Type down your work</label><br>
+            <textarea name="work" id="work" cols="30" rows="10"></textarea>
+            <br>
+            <label for="post-img">Upload image</label>
+            <input type="file" name="post-img" id="post-img"><br>
+
+            <input type="submit" name="" id="">
         </form>
+
+    </section>
+
+    <section id="cta">
+
+        <h3>Follow us on Instagram.</h3>
+        <button type="button">Follow</button>
 
     </section>
 
