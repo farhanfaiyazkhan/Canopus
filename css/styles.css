@@ -6,6 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #243763;
 }
 
 h1 {
@@ -28,6 +29,10 @@ h2{
 .container-fluid {
   padding: 3% 15%;
 }
+
+/* .container {
+  padding: 3% 15%;
+} */
 
 .title-button {
   margin: 2rem 0rem 0;
@@ -61,25 +66,23 @@ h2{
   );
 } */
 
-.instagram-card{
-  text-align: center;
-}
+
 
 .card {
   position: relative;
   top: 100px;
   width: 350px;
-  height: 220px;
+  height: 250px;
   background: rgb(250, 250, 250);
   border-radius: 20px;
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.38);
   transition: 0.5s;
   margin-bottom: 10rem;
-  margin-left: 3rem;
+  margin-left: 5rem;
 }
 
 .card:hover {
-  height: 350px;
+  height: 380px;
   margin-top: 2rem;
   margin-bottom: 8rem;
 }
@@ -222,6 +225,7 @@ h2{
 
 .nav-item {
   padding: 0 18px;
+  text-align: left;
 }
 
 .nav-link {
@@ -232,9 +236,14 @@ h2{
 .title-main{
   text-align: left;
   padding-left: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* About */
+
+#about{
+  background-color: #fff;
+}
 
 .about-img{
   height: auto;
@@ -266,6 +275,8 @@ h2{
 }
 
 
+
+
 /* Poems */
 
 
@@ -283,7 +294,7 @@ h2{
   height: auto; 
   width: 30rem;
   border-radius: 50% 20% / 10% 40%;
-  margin: auto;
+  margin: auto auto 2rem auto;
   border: 2px solid #fff;
   padding: 1rem;
 }
@@ -318,11 +329,87 @@ h2{
 
 .instagram-link:hover{
   color: #0092ca;
+  text-shadow: 0 0 1px white;
 }
 
 .container-poem{
   padding: 2rem auto;
 }
 
+/*Publish*/
 
+#publish{
+  background-color: #243763;
+  color: #fff;
+  height: 6rem;
+  text-align: center;
+}
+
+.publish-header{
+  color: white;
+}
+
+.main-user-info{
+  text-align: left;
+  padding-block-end: 1rem;
+}
+
+/* Follow */
+
+#follow{
+  background-color: white;
+}
+
+.follow-req{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #243763;
+  text-align: left;
+  position: relative;
+  top: 1rem;
+}
+
+.btn-follow{
+  font-family: 'Ubuntu';
+  background-color: #243763;
+  font-size: 4rem;
+  color: #fff;
+  border-radius:50% 20% / 10% 40%;
+}
+
+.btn-follow:hover{
+  background-color: #0092ca;
+  color: white;
+  box-shadow: 0 0 11px #243763;
+}
+
+/* Footer */
+
+#footer
+{
+  background-color: #243763;
+  color: #fff;
+  height: 15rem;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.copyright{
+  position: relative;
+  top: 5rem;
+  font-family: 'Ubuntu';
+  /* font-size: 1.25rem; */
+}
+
+.footer-link{
+  position: relative;
+  top: 2rem;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer-link:hover{
+  color: #999;
+}
 
