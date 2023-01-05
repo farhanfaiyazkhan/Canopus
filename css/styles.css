@@ -75,7 +75,7 @@ h2{
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.38);
   transition: 0.5s;
   margin-bottom: 10rem;
-  margin-left: 0rem;
+  margin-left: 3rem;
 }
 
 .card:hover {
@@ -274,25 +274,32 @@ h2{
   background-color: #243763;
   color: #fff;
   text-align: center;
+  padding-bottom: 2.5rem;
 }
 
 
-.two-burning-img{
+.poem-img{
   max-width: 100%;
   height: auto; 
-  width: 25rem;
+  width: 30rem;
   border-radius: 50% 20% / 10% 40%;
-  margin: 4rem auto;
+  margin: auto;
+  border: 2px solid #fff;
+  padding: 1rem;
+}
+
+.poem-main{
+  text-align: left;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
 }
 
 .poem-title{
-  text-align: left;
   margin: 0 auto 2rem;
   font-family: 'Ubuntu';
 }
 
 .poem-content{
-  text-align: left;
   line-height: 1.75;
   font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
@@ -303,7 +310,6 @@ h2{
   color: #fff;
 }
 
-
 .instagram-link{
   color: #fff;
   font-family: 'Moon Dance', cursive;
@@ -312,6 +318,10 @@ h2{
 
 .instagram-link:hover{
   color: #0092ca;
+}
+
+.container-poem{
+  padding: 2rem auto;
 }
 
 
