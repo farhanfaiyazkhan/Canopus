@@ -46,11 +46,11 @@
 
 <body>
 
-    <section id="title">
+    <section class="colored-section" id="title">
 
         <!-- Nav Bar -->
 
-        <div class="container">
+        <div class="container-fluid">
 
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a href="" class="navbar-brand logo">Canopus</a>
@@ -62,17 +62,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="" class="nav-link">About</a>
+                            <a href="#about" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Poems</a>
+                            <a href="#poems" class="nav-link">Poems</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a href="" class="nav-link">Articles</a>
                         </li> -->
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Publish</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="#publish" class="nav-link">Publish</a>
+                        </li> -->
                     </ul>
                 </div>
             </nav>
@@ -82,29 +82,32 @@
 
             <div class="row">
                 <div class="col-lg-6 col-md-12 title-main">
-                    <h1>A never ending voyage.</h1>
-                    <button type="button" class="btn btn-outline-primary btn-lg title-button title-button-follow">Follow
-                        us</button>
-                    <button type="button" class="btn btn-dark btn-lg title-button">Publish your work</button>
+                    <h1 class="main-header">A never ending voyage.</h1>
+                    <a href="https://www.instagram.com/canopus.writing/"><button type="button"
+                            class="btn btn-outline-primary btn-lg title-button">Follow
+                            us</button></a>
+                    <!-- <button type="button" class="btn btn-dark btn-lg title-button">Publish your work</button> -->
                 </div>
 
 
                 <div class="col-lg-6 col-md-12 instagram-card">
-                    <div class="card">
-                        <div class="imgBx">
-                            <img src="images/Canopus (1).png" />
-                        </div>
-                        <div class="content">
-                            <div class="details">
-                                <h2>Canopus<br /><span>a never ending voyage.</span></h2>
-                                <div class="data">
-                                    <h3>10<br /><span>Posts</span></h3>
-                                    <h3>583<br /><span>Followers</span></h3>
-                                    <h3>161<br /><span>Following</span></h3>
-                                </div>
-                                <div class="actionBtn">
-                                    <button>Follow </button>
-                                    <button>Message</button>
+                    <div class="title-card">
+                        <div class="card">
+                            <div class="imgBx">
+                                <img src="images/Canopus (1).png" />
+                            </div>
+                            <div class="content">
+                                <div class="details">
+                                    <h2>Canopus<br /><span>a never ending voyage.</span></h2>
+                                    <div class="data">
+                                        <h3>10<br /><span>Posts</span></h3>
+                                        <h3>583<br /><span>Followers</span></h3>
+                                        <h3>161<br /><span>Following</span></h3>
+                                    </div>
+                                    <div class="actionBtn">
+                                        <button>Follow </button>
+                                        <button>Message</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -118,9 +121,9 @@
 
     <!-- About -->
 
-    <section id="about">
+    <section class="white-section" id="about">
         <div class="container-fluid">
-            <h2>About us</h2>
+            <h2 class="about-heading section-header">About us</h2>
             <div class="about-row">
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
@@ -156,8 +159,8 @@
 
     </section>
 
-    <section id="poems">
-
+    <section class="colored-section" id="poems">
+        <h2 class="poem-header section-header">Poems</h2>
         <div id="carouselPoem" class="carousel slide">
             <!-- <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousePoem" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -167,37 +170,35 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container-fluid container-poem">
-                        <h2 class="poem-header">Poems</h2>
                         <div class="row">
                             <div class="col-lg-6 col-md-12">
                                 <img class="poem-img" src="images/post/twoburningflames.jpeg" alt="two-burning-flames">
                             </div>
                             <!-- <div class="col-lg-4 col-md-12"></div> -->
                             <div class="col-lg-6 col-md-12 poem-main">
-                                <h3 class="poem-title">Two burning flames.</h2>
-                                    <p class="poem-content">Two burning flames<br>
-                                        In a cold windy night<br>
-                                        Complementing each other<br>
-                                        It is such an alluring sight,<br>
-                                        Riding together<br>
-                                        Tumbling around<br>
-                                        Kindling their lover<br>
-                                        Illuminating the surround,<br>
-                                        Sensing wind stirring up<br>
-                                        They wrapped abound<br>
-                                        Contemplating a large plop<br>
-                                        Of rain falling down<br>
-                                        They breathed their love<br>
-                                        Before they drown.<br>
-                                    </p>
-                                    <em><a class="instagram-link" href="">farhanfaiyazkhan</a></em>
+                                <h3 class="poem-title">Two burning flames.</h3>
+                                <p class="poem-content">Two burning flames<br>
+                                    In a cold windy night<br>
+                                    Complementing each other<br>
+                                    It is such an alluring sight,<br>
+                                    Riding together<br>
+                                    Tumbling around<br>
+                                    Kindling their lover<br>
+                                    Illuminating the surround,<br>
+                                    Sensing wind stirring up<br>
+                                    They wrapped abound<br>
+                                    Contemplating a large plop<br>
+                                    Of rain falling down<br>
+                                    They breathed their love<br>
+                                    Before they drown.<br>
+                                </p>
+                                <em><a class="instagram-link" href="">farhanfaiyazkhan</a></em>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container-fluid container-poem">
-                        <h2 class="poem-header">Poems</h2>
                         <div class="row">
                             <div class="col-lg-6 col-md-12">
                                 <img class="poem-img" src="images/post/aneverendingvoyage.webp"
@@ -205,34 +206,33 @@
                             </div>
                             <!-- <div class="col-lg-4 col-md-12"></div> -->
                             <div class="col-lg-6 col-md-12 poem-main">
-                                <h3 class="poem-title">A never ending voyage.</h2>
-                                    <p class="poem-content">
-                                        A never ending voyage,<br>
-                                        Beholding the beauty of vast sea<br>
-                                        I lost all my rage<br>
-                                        The blue sky at horizon is turning pink<br>
-                                        The source of life is returning<br>
-                                        Returning back to his life<br>
-                                        Contemplating this, my heart almost sank.<br>
-                                        <br>
-                                        I sat mesmerized<br>
-                                        Watching the past becoming present<br>
-                                        I was hypnotized, lost in moment<br>
-                                        I set the sail<br>
-                                        Destined to fail, maybe<br>
-                                        The breeze of love is sweeping us forward<br>
-                                        I felt the caress of her breath<br>
-                                        Perhaps, the almighty is writing<br>
-                                        Two never ending love stories.<br>
-                                    </p>
-                                    <em><a class="instagram-link" href="">farhanfaiyazkhan</a></em>
+                                <h3 class="poem-title">A never ending voyage.</h3>
+                                <p class="poem-content">
+                                    A never ending voyage,<br>
+                                    Beholding the beauty of vast sea<br>
+                                    I lost all my rage<br>
+                                    The blue sky at horizon is turning pink<br>
+                                    The source of life is returning<br>
+                                    Returning back to his life<br>
+                                    Contemplating this, my heart almost sank.<br>
+                                    <br>
+                                    I sat mesmerized<br>
+                                    Watching the past becoming present<br>
+                                    I was hypnotized, lost in moment<br>
+                                    I set the sail<br>
+                                    Destined to fail, maybe<br>
+                                    The breeze of love is sweeping us forward<br>
+                                    I felt the caress of her breath<br>
+                                    Perhaps, the almighty is writing<br>
+                                    Two never ending love stories.<br>
+                                </p>
+                                <em><a class="instagram-link" href="">farhanfaiyazkhan</a></em>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container-fluid container-poem">
-                        <h2 class="poem-header">Poems</h2>
                         <div class="row">
                             <div class="col-lg-6 col-md-12">
                                 <img class="poem-img" src="images/post/lifeisarace.jpeg" alt="two-burning-flames">
@@ -284,8 +284,8 @@
     </section> -->
 
 
-    <section id="publish">
-        <!-- <div class="container">
+    <!-- <section id="publish">
+         <div class="container">
             <h2 class="publish-header">Publish your work</h2>
             <form action="">
                 <div class="main-user-info">
@@ -336,40 +336,33 @@
                     <input type="submit" value="Publish" name="" id="">
                 </div>
             </form>
-        </div> -->
+        </div>
 
-    </section>
+    </section> -->
 
-    <section id="follow">
+    <section class="white-section" id="follow">
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-2"></div>
-                
-                <div class="col-lg-3 col-md-12">
-                    <button type="button" class="btn btn-large btn-follow">Follow</button>
-                </div>
-
-                <div class="col-lg-5 col-md-12">
+                    <a href="https://www.instagram.com/canopus.writing/"><button type="button"
+                            class="btn btn-large btn-follow">Follow</button></a>
                     <h3 class="follow-req"> us on Instagram.</h3>
-                </div>
-                <div class="col-lg-2"></div>
-            </div>  
         </div>
 
     </section>
 
-    <footer id="footer">
+    <footer class="colored-section" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <a class="footer-link" href="https://farhanfaiyazkhan.github.io/Canopus/"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="footer-link" href="https://farhanfaiyazkhan.github.io/Canopus/"><i
+                            class="fa-brands fa-twitter"></i></a>
                 </div>
                 <div class="col-4">
-                    <a class="footer-link" href="https://www.instagram.com/canopus.writing/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="footer-link" href="https://www.instagram.com/canopus.writing/"><i
+                            class="fa-brands fa-instagram"></i></a>
                 </div>
                 <div class="col-4">
-                    <a class="footer-link" href=""><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a class="footer-link" href="#poems"><i class="fa-regular fa-pen-to-square"></i></a>
                 </div>
             </div>
         </div>
